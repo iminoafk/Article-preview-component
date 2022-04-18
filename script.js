@@ -11,6 +11,7 @@ const matchResult = window.matchMedia("(max-width:1040px)");
 function isSmallScreen(){
     return window.matchMedia("(max-width:1040px)").matches;
 }
+shareInfo.classList.add('hidden');
 
 
 
